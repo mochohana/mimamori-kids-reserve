@@ -1,0 +1,13 @@
+{
+  "name": "Mimamori Kids Reserve",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "みまもりキッズの利用予約入力を一括でできるようにする",
+  "content_scripts": [
+    {
+      "matches": [ "https://sv2.mkids.jp/user-entry/*" ],
+      "run_at": "document_end",
+      "js": [ "mimamori_kids_reserve.js" ]
+    }
+  ]
+}
