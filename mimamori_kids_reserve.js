@@ -3,7 +3,7 @@ window.onload = function () {
     const tr = entryTable.tBodies[0].insertRow(0);
 
     const cell0 = tr.insertCell(0);
-    cell0.textContent = 'まとめて入力';
+    cell0.textContent = 'まとめて設定';
 
     const cell1 = tr.insertCell(1);
     cell1.appendChild(createAllAttendTypeCheckBox());
